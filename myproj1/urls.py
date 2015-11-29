@@ -24,8 +24,8 @@ urlpatterns = patterns("",
 	(r'^login/$', login),
 	(r'^register/$', register),
 	(r'^hospitals/$', hospitals),
-	(r'^orders/$', orders),
-	(r'^checkout/$', checkout),
+	(r'^list/$', list),
+	(r'^select/$', select),
 	(r'^contact/$', contact),
 )
 
